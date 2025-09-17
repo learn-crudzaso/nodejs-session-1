@@ -39,16 +39,16 @@ npm install
 Crea tu `.env` basándote en `.env.example`:
 
 ```env
-# Database
+# APP
+PORT=3000
+
+# DATABASE
 DB_HOST=localhost
 DB_PORT=3306
 DB_USER=root
 DB_PASSWORD=your_password
 DB_NAME=your_database
 DB_DIALECT=mysql
-
-# App
-PORT=3000
 ```
 
 ### 3) Database
@@ -62,11 +62,11 @@ PORT=3000
 Puedes iniciar el proyecto con:
 
 ```bash
-node src/index.js
+node src/server.js
 ```
 
 O bien, usando **nodemon** si lo tienes instalado:
 
 ```bash
-npx nodemon src/index.js
+npx nodemon src/server.js
 ```
