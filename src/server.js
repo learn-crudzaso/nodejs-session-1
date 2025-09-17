@@ -2,7 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import database from './config/database.js';
 import Product from './models/product.model.js';
-import router from './router/router.js';
+import router from './routes/router.js';
 
 dotenv.config();
 
